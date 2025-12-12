@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1025665112302",
+    "project_id": "mindpal-android",
+    "storage_bucket": "mindpal-android.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1025665112302:android:95b878528493bfd9dbbbff",
+        "android_client_info": {
+          "package_name": "com.example.mindpal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGpnQ3HlNSjVhNj5KKzqV2WBIUIVrY_5k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
