@@ -15,8 +15,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class Home extends AppCompatActivity {
     ImageView imgLogo;
-    Button btnProf;
-    Button btnNotif;
+    Button btnProf, btnNotif, btnLogOut;
     ImageButton btnProfile;
     TextView txtWelcome;
 
@@ -36,19 +35,24 @@ public class Home extends AppCompatActivity {
         btnProf = findViewById(R.id.btnProf);
         btnNotif = findViewById(R.id.btnNotif);
         btnProfile = findViewById(R.id.btnProfile);
+        btnLogOut = findViewById(R.id.btnLogOut);
         txtWelcome = findViewById(R.id.txtWelcome);
 
         btnProf.setOnClickListener(v -> {
             Intent intent = new Intent(this, Professional.class);
             startActivity(intent);
-            finish();
         });
 
         btnNotif.setOnClickListener(v -> {
             Intent intent = new Intent(this, Notification.class);
             startActivity(intent);
-            finish();
         });
+
+        btnProfile.setOnClickListener(v -> {
+            Intent intent = new Intent(this, Profile.class);
+            startActivity(intent);
+        });
+
 
     }
 }

@@ -27,7 +27,7 @@ public class ProfessionalAdapter extends ArrayAdapter<ProfItem> {
         ProfItem prof = getItem(position);
 
         if (convertView == null) {
-            convertView = LayoutInflater.from(getContext()).inflate(R.layout.profesional, parent, false);
+            convertView = LayoutInflater.from(getContext()).inflate(R.layout.proflistview, parent, false);
         }
 
         //sesuaikan dulu sama ProfItem baru masukkan di sini
@@ -37,6 +37,7 @@ public class ProfessionalAdapter extends ArrayAdapter<ProfItem> {
 
         if (prof != null) {
             profName.setText(prof.getName());
+            profReview.setText(prof.getReview());
             profImage.setImageResource(prof.getImageResourceId());
         }
 

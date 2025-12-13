@@ -9,10 +9,13 @@
 
     <TextView
         android:id="@+id/txtProf"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@+id/btnBack"
+        android:textAlignment="center"
         android:text="Professionals"
+        android:fontFamily="sans-serif-black"
+        android:paddingTop="10dp"
         tools:layout_editor_absoluteX="169dp"
         tools:layout_editor_absoluteY="16dp" />
 
@@ -29,20 +32,5 @@
         android:layout_height="match_parent"
         android:id="@+id/listProf"
         android:layout_below="@+id/btnBack"/>
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/profImage"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/profName"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/profReview"/>
 
 </RelativeLayout>
