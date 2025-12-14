@@ -33,6 +33,30 @@
         android:textSize="18sp"
         android:textAlignment="center" />
 
+    <TextView
+        android:id="@+id/txtQuote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtStatusToday"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="24dp"
+        android:text="“Small steps every day lead to big changes.”"
+        android:textAlignment="center"
+        android:textSize="13sp"
+        android:textStyle="italic"
+        android:textColor="#888888"/>
+
+    <TextView
+        android:id="@+id/txtStatusToday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtWelcome"
+        android:layout_marginTop="522dp"
+        android:text="Today’s mood: 😊 Good\nNo consultation scheduled"
+        android:textAlignment="center"
+        android:textColor="#666666"
+        android:textSize="14sp" />
+
     <Button
         android:id="@+id/btnProf"
         android:layout_width="match_parent" android:layout_height="wrap_content"
